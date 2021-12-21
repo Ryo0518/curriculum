@@ -4,17 +4,17 @@ import constants.Constants;
 
 public class Main {
 	
-	private String firstName = "池田";
-	private String lastName = "亮";
+	private static String firstName = "池田";
+	private static String lastName = "亮";
 	
 	public static void main(String[] args) {
-		printName("池田", "亮");
+		printName(firstName, lastName);
 		
 		Pet pt = new Pet(Constants.CHECK_CLASS_JAVA,Constants.CHECK_CLASS_HOGE);
 		RobotPet rbpt = new RobotPet(Constants.CHECK_CLASS_R2D2,Constants.CHECK_CLASS_LUKE);
 		pt.introduce();
 		rbpt.introduce();		
-		// TODO 自動生成されたメソッド・スタブ
+		// TODO 自動生成されたメソッド・スタブs
 		
 
 	}

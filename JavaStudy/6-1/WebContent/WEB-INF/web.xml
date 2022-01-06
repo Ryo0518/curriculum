@@ -15,7 +15,7 @@
  <servlet>
  <servlet-name>select</servlet-name>
  <!--問① サーブレットのクラス名を入れてください。-->
- <servlet-class>6-1</servlet-class>
+ <servlet-class>SelectServlet</servlet-class>
  </servlet>
  <servlet-mapping>
  <servlet-name>select</servlet-name>
